@@ -1,0 +1,81 @@
+/* Body eke margin ain karanna */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+  background-color: transparent;
+ min-height: 100vh;
+}
+
+/* Navbar eka */
+.navbar {
+  background: rgba(0, 0, 0, 0.3); /* 30% black transparent */
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 12px 40px;
+  margin: 15px 30px; /* uda, pas side idala space */
+  border-radius: 12px; /* rounded corner */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 15px;
+  z-index: 50;
+}
+
+.navbar h1 {
+  color: #5d0231;
+  font-size: 22px;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px; /* links athara idam */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #5a0330;
+}
+
+/* Footer eka */
+.footer {
+  background: rgba(0, 0, 0, 0.4); /* 40% black transparent */
+  backdrop-filter: blur(8px);
+  color: #eeeeeefd;
+  padding: 35px 20px;
+  margin: 40px 30px 20px 30px; /* uda, pas, yata space */
+  border-radius: 12px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section h3 {
+  color: #650335;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #ece7e7;
+}
